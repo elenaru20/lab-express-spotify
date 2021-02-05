@@ -1,0 +1,9 @@
+<div class="artistCardBox">
+    {{#each albums}}
+    <div class="artistCard">
+        <h2> {{this.name}} </h2>
+        <img class="artistImage" src="{{this.images.0.url}}"/>
+        <a class="nextSearchButton" href="/tracks/{{this.id}}">View Tracks</a>
+    </div>
+    {{/each}}
+</div>

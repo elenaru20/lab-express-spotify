@@ -1,0 +1,10 @@
+<div class="artistCardBox">
+    {{#each searchResults}}
+    
+                   <div class="artistCard">
+                       <h2>{{this.name}}</h2>
+                       <img class="artistImage" src="{{this.images.2.url}}" alt="image not found"/>
+                       <a class="nextSearchButton" href="/album/{{this.id}}">View Albums</a>
+                   </div>
+    {{/each}}
+</div>

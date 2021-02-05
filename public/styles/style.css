@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+body {
+    font-size: 16px;
+    font-family: 'Signika', sans-serif;
+}
+
+/* Index View Start */
+.bodyIndex {
+    background-image: url("../images/spotify-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    color: white;
+}
+
+.centerBox {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.bodyIndex h1 {
+    font-size: 700%;
+    color: rgba(55, 55, 55, 0.489);
+}
+
+.searchBox {
+    background-color: #69666687;
+    height: 20vh;
+    width: 60vw;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    border-radius: 8px;  
+}
+
+.searchButton {
+    margin-top: .5rem;
+    background-color: #8a0500;
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 12rem;
+    color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.inputSearch {
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 20rem;
+    color: rgb(79, 77, 77);
+	border: none;
+	padding: 0 .5rem;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+/* Index View End */
+
+.nextSearchButton {
+    background-color: #8a0500;
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 12rem;
+    text-decoration: none;
+    color: white;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    margin-top: 1rem;
+}
+
+.artistCard {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+    width: 20%;
+    height: 20rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 1% 1%;
+}
+
+.artistCard h2 {
+    text-align: center;
+    font-size: .9rem;
+}
+
+.artistCardBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artistImage {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0rem;
+}
+
+.previewItemsBox {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    background-color: rgba(14, 76, 123, 0.797);
+    margin: .2rem;
+    padding: 1rem;
+    border-radius: 30px;
+    color: white;
+}
+
+.previewItemsBox audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-color: rgba(50, 116, 167, 0.743);
+    color: white;
+    border-radius: 0px;
+}
+
